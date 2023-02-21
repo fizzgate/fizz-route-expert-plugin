@@ -1,4 +1,4 @@
-package we.util;
+package com.fizzgate.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.StringUtils;

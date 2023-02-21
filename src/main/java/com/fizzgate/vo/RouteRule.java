@@ -1,4 +1,4 @@
-package we.vo;
+package com.fizzgate.vo;
 
 import lombok.Data;
 

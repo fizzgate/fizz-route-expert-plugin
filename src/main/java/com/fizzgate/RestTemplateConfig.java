@@ -1,4 +1,4 @@
-package we;
+package com.fizzgate;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

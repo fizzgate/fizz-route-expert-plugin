@@ -1,4 +1,4 @@
-package we.plugin.business;
+package com.fizzgate.plugin.business;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
@@ -16,7 +16,6 @@ import javax.annotation.Resource;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.BeanUtils;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.http.HttpCookie;
 import org.springframework.http.HttpEntity;
@@ -35,18 +34,18 @@ import com.alibaba.fastjson.JSONObject;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 import reactor.core.publisher.Mono;
-import we.plugin.FizzPluginFilterChain;
-import we.plugin.auth.ApiConfig;
-import we.plugin.auth.ApiConfigService;
-import we.plugin.requestbody.RequestBodyPlugin;
-import we.proxy.Route;
-import we.util.DataUtils;
-import we.util.NettyDataBufferUtils;
-import we.util.RangeUtils;
-import we.util.RestTemplateUtils;
-import we.util.WebUtils;
-import we.vo.RouteRule;
-import we.vo.RouteTypeResponse;
+import com.fizzgate.plugin.FizzPluginFilterChain;
+import com.fizzgate.plugin.auth.ApiConfig;
+import com.fizzgate.plugin.auth.ApiConfigService;
+import com.fizzgate.plugin.requestbody.RequestBodyPlugin;
+import com.fizzgate.proxy.Route;
+import com.fizzgate.util.DataUtils;
+import com.fizzgate.util.NettyDataBufferUtils;
+import com.fizzgate.util.RangeUtils;
+import com.fizzgate.util.RestTemplateUtils;
+import com.fizzgate.util.WebUtils;
+import com.fizzgate.vo.RouteRule;
+import com.fizzgate.vo.RouteTypeResponse;
 
 /**
  * 路由能手插件
